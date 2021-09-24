@@ -80,8 +80,15 @@ body {
         width: 30%;
     }
 
-    .sticky {
+    .sticky-up {
         position: sticky;
         top: 0;
+    }
+
+    .sticky-down {
+        position: sticky;
+        bottom: 0;
+
+        align-self: flex-end;
     }
 }
