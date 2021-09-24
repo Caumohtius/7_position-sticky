@@ -81,11 +81,13 @@ body {
     }
 
     .sticky-up {
+        position: -webkit-sticky;
         position: sticky;
         top: 0;
     }
 
     .sticky-down {
+        position: -webkit-sticky;
         position: sticky;
         bottom: 0;
 
